@@ -225,7 +225,6 @@ fechaIngresada =""
 
 while True:
         if (re.match(enterosSinElCero, fechaIngresada[0:2]) and re.match(enterosSinElCero, fechaIngresada[2:4]) and re.match(enterosSinElCero, fechaIngresada[4:8])):
-           int (fechaIngresada)
            break
         else:
            fechaIngresada = input("Ingresa una fecha con el formato dd/mm/aaaa. ")
