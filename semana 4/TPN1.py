@@ -23,8 +23,8 @@ print ("Hola " + nombre + " " + apellido)
 # 4. Pida al usuario que ingrese 2 números para luego sumarlos y mostrar en pantalla: “La
 # respuesta es XX”.
 
-numeroParaSumar = int(input ("Ingresa un número para realizar una suma. "))
-otroNumeroParaSumar = int(input ("Ingresa otro número para realizar la suma. "))
+numeroParaSumar = float(input ("Ingresa un número para realizar una suma. "))
+otroNumeroParaSumar = float(input ("Ingresa otro número para realizar la suma. "))
 
 print ("La respuesta es " + str(numeroParaSumar + otroNumeroParaSumar))
 
@@ -32,9 +32,9 @@ print ("La respuesta es " + str(numeroParaSumar + otroNumeroParaSumar))
 # luego multiplique este total por el tercero. Mostrar la respuesta en pantalla de la siguiente
 # forma: “La respuesta es XX”
 
-numeroParaSumar = int(input ("Ingresa un número para realizar una suma. "))
-otroNumeroParaSumar = int(input ("Ingresa otro número para realizar la suma. "))
-numeroParaMultiplicarLaSuma = int(input("Ingrese un número adicional para multiplicar la suma de los dos números anteriores. "))
+numeroParaSumar = float(input ("Ingresa un número para realizar una suma. "))
+otroNumeroParaSumar = float(input ("Ingresa otro número para realizar la suma. "))
+numeroParaMultiplicarLaSuma = float(input("Ingrese un número adicional para multiplicar la suma de los dos números anteriores. "))
 
 print("La respuesta es " + str((numeroParaSumar+otroNumeroParaSumar)* numeroParaMultiplicarLaSuma))
 
@@ -42,7 +42,7 @@ print("La respuesta es " + str((numeroParaSumar+otroNumeroParaSumar)* numeroPara
 # pregunte cuántos comensales hay. A continuación deberá dividir la cuenta total por el
 # número de comensales y mostrar cuánto debe pagar cada persona.
 
-precioDeLaCuenta = int(input("¿Cuál es el precio de la cuenta.? "))
+precioDeLaCuenta = float(input("¿Cuál es el precio de la cuenta.? "))
 cantidadDeComensales = int(input("¿Cuál es la cantidad de comensales.? "))
 
 print("Cada persona debe pagar " + str(precioDeLaCuenta / cantidadDeComensales))
@@ -58,8 +58,8 @@ print("El número de días tiene " + str(numeroDeDias*24)+" horas "+ str(numeroD
 #   8. Escriba un programa que permita al usuario ingresar la base y altura de un triángulo para
 #   luego imprimir por pantalla la superficie total.
 
-baseDelTriangulo = int(input("Ingrese la base del triangulo. "))
-alturaDelTriangulo = int(input("Ingrese la altura del triangulo. "))
+baseDelTriangulo = float(input("Ingrese la base del triangulo. "))
+alturaDelTriangulo = float(input("Ingrese la altura del triangulo. "))
 
 print("La superficie total del triangulo es: "+ str((baseDelTriangulo*alturaDelTriangulo)/2))
 
