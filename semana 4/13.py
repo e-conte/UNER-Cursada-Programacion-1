@@ -4,8 +4,8 @@
 #   1985 -> Usuario: mfrancisconi, Contraseña: mf.1985.
 
 def usuario_y_contraseña():
-    nombre = input ("Hola!, por favor escribe tu nombre. ")
-    apellido = input ("Ahora, por favor escribe tu apellido. ")
+    nombre = input ("Hola!, por favor escribe tu nombre. ").lower()
+    apellido = input ("Ahora, por favor escribe tu apellido. ").lower()
     año_de_nacimiento = input ("Finalmente, por favor escribe el año en que naciste. ")
     usuario = nombre [0:1] + apellido  
     contraseña = nombre [0:1] + apellido [0:1] + "." + año_de_nacimiento 

@@ -1,6 +1,5 @@
-# 1. Mostrar por pantalla: “Hola Mundo, esto es Python!”.
+def imprimir_nombre(nombre):
+    print(nombre)
 
-def hola_mundo():
-    return print ("Hola Mundo, esto es Python!")
+imprimir_nombre()
 
-hola_mundo()
