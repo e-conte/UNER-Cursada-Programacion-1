@@ -57,12 +57,15 @@ def ejercicio_6 ():
         global opcion
         #   opcion va a ser usada en las f()a/b/c/d por eso la asignamos como global
         espacio()
-        print ("Elija una opción:")
-        print ("a - Para agregar un elemento al final")
-        print ("b - Para agregar un elemento al principio")
-        print ("c - Quitar un elemento del final")
-        print ("d - Quitar un elemento del principio")
-        print ("Lista actual: " + str(lista))
+        print( 
+            """Elija una opción:
+               a - Para agregar un elemento al final
+               b - Para agregar un elemento al principio
+               c - Quitar un elemento del final
+               d - Quitar un elemento del principio
+            """)
+        print ("Lista actual: " + str(lista)
+
         espacio()
         opcion =input ("Opción:" )
         espacio()
