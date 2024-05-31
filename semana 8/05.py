@@ -39,7 +39,13 @@ def ejercicio_5():
 
     def punto_b():
         print("Punto B")
-        print("El número anterior al máximo es el número: " + str(lista[len(lista)-2]))
+        lista_nueva = []
+        for elementos in lista:
+        #   para todos los elementos de la lista
+            if elementos not in lista_nueva:
+            #   si no estan en la lista nueva se agregan
+                lista_nueva.append(elementos)
+        print("El número anterior al máximo es el número: " + str(lista[len(lista_nueva)-2]))
         #   aprovechamos que ya tenemos la lista ordenada del ejercicio anterior
 
     def punto_c():
